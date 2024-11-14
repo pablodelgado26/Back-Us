@@ -1,4 +1,12 @@
 class Jogo {
+
+    id;
+    jogadores;
+    cargos;
+    rodada;
+    tempo;
+    objetivo;
+
     constructor(id, jogadores, cargos, rodada, tempo, objetivo) {
 
         this.id = id;
@@ -9,3 +17,5 @@ class Jogo {
         this.objetivo = objetivo;
     }
 }
+
+export default Jogo;
