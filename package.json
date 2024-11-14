@@ -1,0 +1,16 @@
+{
+    "name": "back-us",
+    "version": "1.0.0",
+    "description": "Criação de classe e objetos",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "amig": "node sabotador/index.js",
+      "poo": "node alunos/index.js",
+      "enca": "node professor/index.js",
+      "abst": "node jogo/index.js"
+    },
+    "author": "Pablo Delgado",
+    "license": "MIT"
+  }
